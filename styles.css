@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@600;700&family=Montserrat:ital,wght@0,700;0,800;1,800&family=Roboto:wght@300&display=swap');
+
+body{
+  background-color: #fef9fb;
+}
+
+.container-fluid{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+.whitebg{
+    height: 350px;
+    background-color: #fef9fb;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+
+}
+
+.greybg{
+  max-height: 270px;
+  min-height: 270px;
+  background-color: #e3eee6;
+  min-width:100%;
+  display: flex;
+  align-items:center;
+  justify-content: left;
+
+}
+
+.CapitalA{
+  font-family: 'JetBrains Mono', monospace;
+  font-weight: 700;
+  font-size:45rem;
+  -ms-transform: rotate(-90deg);/* IE 9 */
+  transform: rotate(-90deg);
+  margin-left: 10%;
+  color: #fef9fb;
+
+/*   margin-top:-10%; */
+}
+
+.content-div{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  max-width:40%;
+
+  margin-bottom:-15%;
+  z-index:10;
+}
+
+.h1Class{
+  margin-bottom:0px;
+  color:#f55c47;
+  font-family: 'Montserrat', sans-serif;
+  font-weight:800;
+  font-size: 8rem;
+  margin: 0px auto 0 auto;
+}
+.pClass{
+  color:#f55c47;
+  font-family: 'Roboto', sans-serif;
+   letter-spacing: 2px;
+  font-size: 8rem;
+  margin: 0px auto 0 auto;
+}
+span{
+  font-size: 8.6rem;
+}
+
+.h3Class{
+  margin: 0px auto 5px auto;
+  font-family: 'JetBrains Mono', monospace;
+  font-size:2rem;
+  color:#53354a;
+  letter-spacing:3px;
+}
