@@ -1,9 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@600;700&family=Montserrat:ital,wght@0,700;0,800;1,800&family=Roboto:wght@300&display=swap');
 
 body{
-  background-color: #fef9fb;
+  background-color: #FDFAF6;
 }
 
+/* navbar */
+.logo{
+  width: 25%;
+}
+
+.navbar{
+  padding: 15px 10%;
+}
+
+.navbar-brand{
+  width: 30%;
+}
+
+.nav-link{
+  margin-right: 18px;
+  font-size: 1.25rem;
+  color: #234c24;
+  font-weight: 400;
+}
+
+.navbar-nav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    color: #234c24;
+}
+/* Home content */
 .container-fluid{
   display:flex;
   align-items:center;
@@ -11,8 +38,8 @@ body{
 }
 
 .whitebg{
-    height: 350px;
-    background-color: #fef9fb;
+    height: 370px;
+    background-color: #FDFAF6;
   display:flex;
   align-items:center;
   justify-content:center;
@@ -20,8 +47,8 @@ body{
 }
 
 .greybg{
-  max-height: 270px;
-  min-height: 270px;
+  max-height: 290px;
+  min-height: 290px;
   background-color: #e3eee6;
   min-width:100%;
   display: flex;
@@ -37,7 +64,7 @@ body{
   -ms-transform: rotate(-90deg);/* IE 9 */
   transform: rotate(-90deg);
   margin-left: 10%;
-  color: #fef9fb;
+  color: #FDFAF6;
 
 /*   margin-top:-10%; */
 }
@@ -53,6 +80,10 @@ body{
 }
 
 .h1Class{
+  max-height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-bottom:0px;
   color:#f55c47;
   font-family: 'Montserrat', sans-serif;
@@ -61,6 +92,10 @@ body{
   margin: 0px auto 0 auto;
 }
 .pClass{
+  max-height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color:#f55c47;
   font-family: 'Roboto', sans-serif;
    letter-spacing: 2px;
@@ -77,4 +112,21 @@ span{
   font-size:2rem;
   color:#53354a;
   letter-spacing:3px;
+}
+
+/* About */
+.about-me{
+
+  display: flex;
+  justify-content: center;
+}
+.about-me-content{
+  max-width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.about-avatar{
+  width: 25%;
+
 }
