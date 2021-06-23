@@ -1,0 +1,25 @@
+/* navabr */
+
+/* customizing the navbar when scrolled */
+/* .scrolling-active{
+  background-color: #000 !important;
+  box-shadow: 0 3px 1rem rgb(0,0,0,0.1);
+  transition: 0.75s ease;
+}
+
+.scrolling-active .navbar-logo{
+  transition: 0.75s ease;
+}
+
+.scrolling-active a{
+  color: #fff !important;
+} */
+
+.navbar-logo{
+  width: 60px;
+}
+
+.nav-link{
+  margin-right: 25px;
+  font-size: 1.2rem;
+}
